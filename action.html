@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="bootstrap.min.css">
+		<link rel="stylesheet" href="index.css">
+		<script src="jquery-2.1.4.min.js"></script>
+		<script src="bootstrap.min.js"></script>
+		<script src="action.js">
+		</script>
+	</head>
+
+	<body>
+		<br>
+		<br>
+		<center>
+			<form id="pingForm">
+				<div class="form-group" style="width: 80%; text-align: start">
+					<label>URL:</label>
+					<input type="text" class="form-control" name="link" placeholder="Link" id="linkID">
+				</div>
+				<br>
+				<div class="form-group" style="width: 80%; text-align: start">
+					<label>Duration:</label>	
+					<select class="form-control" id="list">
+					    <option>5 seconds</option>
+					    <option>10 seconds</option>
+					    <option>1 minute</option>
+					    <option>5 minutes</option>
+					    <option>10 minutes</option>
+				  	</select>
+				</div>
+				<br>
+
+				<div class="btn-group" style="width: 80%">
+					<button type="button" class="btn btn-default" style="width: 50%; background-color: #3399FF; color: white" id="pingButt">Ping!
+					</button>
+					<button type="button" class="btn btn-default" style="width: 50%" id="stopPing">Stop</button>
+				</div>
+			</form> 
+		</center>
+		<br>
+		<br>
+
+	</body>	
+</html>
